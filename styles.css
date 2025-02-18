@@ -1,0 +1,96 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d0d0dc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Conteneur principal */
+.pricing-container {
+    display: flex;
+    gap: 20px;
+}
+
+/* Style des cartes */
+.card {
+    width: 250px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    height: 500px;
+}
+
+/* Carte Free */
+.free {
+    background-color: white;
+}
+
+/* Carte Pro */
+.pro {
+    background-color: #121826;
+    color: white;
+}
+
+/* Titres */
+h3 {
+    margin: 0;
+    font-size: 22px;
+    padding-left: 20%;
+}
+
+/* Sous-titre */
+.subtitle {
+    color: #6b7280;
+    font-size: 14px;
+    padding-left: 20%;
+}
+
+/* Prix */
+.price {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 10px 0;
+    padding-left: 20%;
+    
+}
+
+/* Liste */
+ul {
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+    padding-top: 30%;
+    padding-left: 20%;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Bouton */
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Bouton Free */
+.free button {
+    background-color: #121826;
+    color: white;
+margin-top: 65%;
+}
+
+/* Bouton Pro */
+.pro button {
+    background-color: white;
+    color: #121826;
+    margin-top: 45%;
+}
